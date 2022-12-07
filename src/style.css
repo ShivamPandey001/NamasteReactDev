@@ -16,3 +16,27 @@
 .card-container {
     display: flex;
 }
+
+.card {
+    width: 17em;
+    height: 15em;
+    border: 2px solid rgb(183, 181, 181);
+    border-radius: 1em;
+    margin: 2em;
+}
+
+.card-info {
+    margin-top: 2em;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: cadetblue;
+}
+
+.card-info h2 {
+    color: grey;
+}
