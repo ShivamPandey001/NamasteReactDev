@@ -1,0 +1,23 @@
+[    {
+        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uj68ybtfwbydewraxzhm",
+        "name" : "GayLord Express",
+        "cusine": "Agra , India",
+        "star" : 4,
+        "id" :  "r1"
+    },
+    {
+        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uj68ybtfwbydewraxzhm",
+        "name" : "Day Dreams Cafe and Juicebar",
+        "cusine": "Beverages, Fast Food, Italian, Ice Cream",
+        "star" : 4,
+        "id" :  "r2"
+
+    },
+    {
+        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wcd8jyciflmzxm3yooei",
+        "name" : "Biryani station",
+        "cusine": "Indian, Biryani, North Indian, Punjabi",
+        "star" : 3,
+        "id" :  "r3"
+    }
+]
