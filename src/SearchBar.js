@@ -7,8 +7,8 @@ const searchRestuarant = (searchText) => {
     );
 };
 
-const SearchBar = ({setFilteredRestuarants}) => {
-const [searchText, setSearchText] = useState("restuarant");
+const SearchBar = ({setFilteredTeams}) => {
+const [searchText, setSearchText] = useState("Teams");
   return (
     <div>
       <form 
@@ -16,19 +16,18 @@ const [searchText, setSearchText] = useState("restuarant");
             e.preventDefault();
             const filteredRestuarant = searchRestuarant(searchText);
             console.log(filteredRestuarant);
-            setFilteredRestuarants(filteredRestuarant);            
+            setFilteredTeams(filteredRestuarant);            
         }}
       >
         <input
-          id="restuarant"
-          placeholder="restuarant"
+          id="Teams"
+          placeholder="Teams"
           value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value)
           }}
         ></input>
         <button>Search</button>
-        <h1>{searchText}</h1>
       </form>
     </div>
   );

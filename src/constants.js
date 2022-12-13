@@ -1,1 +1,1 @@
-export const title = "Hunger Hub";
+export const title = "Storm Troopers";

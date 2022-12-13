@@ -13,21 +13,19 @@ const HeadingComponent = () => (
             </div>
 );
 
-const CardContainer = ({filteredRestuarants}) =>{
-    const cards = filteredRestuarants.map((restuarant) =>{
+const CardContainer = ({filteredTeamMembers}) =>{
+    const cards = filteredTeamMembers.map((restuarant) =>{
         return <CardComponent restuarant={restuarant} key ={restuarant.id} className="card" />
     });
     return cards;
 };
-// const  props ={
-// restuarant = data[0];  it's like this interally
-// }
+
 const BodyComponent = () => {
-    const [filteredRestuarants, setFilteredRestuarants] = useState(data);
+    const [filteredTeamMembers, setFilteredTeams] = useState(data);
   return (
     <div className="card-container">
-      <SearchBar setFilteredRestuarants={setFilteredRestuarants}/>
-      <CardContainer filteredRestuarants={filteredRestuarants}/>
+      <SearchBar setFilteredTeams={setFilteredTeams}/>
+      <CardContainer filteredTeamMembers={filteredTeamMembers}/>
     </div>
   );
 };

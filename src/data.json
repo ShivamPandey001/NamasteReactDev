@@ -1,23 +1,61 @@
 [    {
-        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uj68ybtfwbydewraxzhm",
-        "name" : "GayLord Express",
-        "cusine": "Agra , India",
-        "star" : 4,
-        "id" :  "r1"
-    },
-    {
-        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uj68ybtfwbydewraxzhm",
-        "name" : "Day Dreams Cafe and Juicebar",
-        "cusine": "Beverages, Fast Food, Italian, Ice Cream",
-        "star" : 4,
-        "id" :  "r2"
-
-    },
-    {
-        "img" : "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wcd8jyciflmzxm3yooei",
-        "name" : "Biryani station",
-        "cusine": "Indian, Biryani, North Indian, Punjabi",
-        "star" : 3,
-        "id" :  "r3"
-    }
+    "name": "Harshita Mangla",
+    "company": "GJUST",
+    "place": "Faridabad",
+    "id": 1
+  },
+  {
+    "name": "Sumathi",
+    "company": "Capgemini",
+    "place": "Guntur",
+    "id": 2
+  },
+  {
+    "name": "Shivam Pandey",
+    "company": "Korber Supply Chain",
+    "place": "Mirzapur",
+    "id": 3
+  },
+  {
+    "name": "Atul Singh",
+    "company": "Appinventiv Technologies",
+    "place": "Noida",
+    "id": 4
+  },
+  {
+    "name": "Prajwali",
+    "company": "Zeta",
+    "place": "Belikahalli",
+    "id": 5
+  },
+  {
+    "name": "Pranav",
+    "company": "ITC Infotech",
+    "place": "Bengaluru",
+    "id": 6
+  },
+  {
+    "name": "Priya",
+    "company": "Manhattan Associates",
+    "place": "NA",
+    "id": 7
+  },
+  {
+    "name": "Samridhi Pandey",
+    "company": "HPE",
+    "place": "Noida",
+    "id": 8
+  },
+  {
+    "name": "Sowmya Reddy",
+    "company": "Landmark Health Pvt Ltd",
+    "place": "Kithaganur",
+    "id": 9
+  },
+  {
+    "name": "Uttapal",
+    "company": "Ramjas College",
+    "place": "Vijaynagar",
+    "id": 10
+  }
 ]
